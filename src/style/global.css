@@ -1,0 +1,71 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: "Segoe UI Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Segoe UI Bold"),
+    url("/FontFamily/Segoe UI Bold.woff") format("woff");
+} */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance: textfield !important;
+    /* Firefox */
+}
+
+.bg-modal {
+    background-color: #12122c;
+}
+
+.thelist:hover {
+    background-color: #07071c;
+}
+
+.MuiStepLabel-labelContainer .MuiStepLabel-label {
+    color: white !important;
+}
+
+.css-1v2lvtn-MuiPaginationItem-root {
+    color: white !important;
+}
+
+.footer-icon {
+    fill: #14A9FF;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-icon2 {
+    fill: #14A9FF;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-icon3 {
+    fill: #14A9FF;
+    width: 24px;
+    height: 24px;
+    margin: 0px 20px;
+}
+
+.footer-icon4 {
+    fill: #14A9FF;
+    width: 24px;
+    height: 24px;
+}
+
+/* #squid-widget {
+    display: flex;
+    justify-content: center;
+} */
